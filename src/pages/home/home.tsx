@@ -47,8 +47,12 @@ export default function Home() {
       </div>
       <Footer>
         <div className="flex flex-row items-center justify-center">
-          <Button className="mx-1">Google Search</Button>
-          <Button className="mx-1">I'm Feeling Lucky</Button>
+          <Button className="mx-1" href="https://www.google.com/">
+            Google Search
+          </Button>
+          <Button className="mx-1" href="https://www.google.com/doodles">
+            I'm Feeling Lucky
+          </Button>
         </div>
       </Footer>
       <div className="fixed bottom-0">

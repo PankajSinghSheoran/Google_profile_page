@@ -38,41 +38,91 @@ export default function Profile() {
           <hr className="w-full my-5 border-2" />
         </div>
       </Header>
-      <div className=" ml-44">
-        <div className="flex">
-          <p className="mt-6 text-blue-500 ">
-            <a href="#"> Pankaj Singh Sheoran - Resume</a>
-          </p>
-        </div>
-        <div className="text-xs">
-          <p className="mt-3">
-            <b>Pankaj Singh Sheoran</b> (born 2001), Computer Science
-            Undergraduate Batch of 2023, pursuing degree from Guru Jambheshwar
-            University of Science and Technology, Hisar, Haryana, India.
-          </p>
-          <p className="mt-3">
-            <b>Skills:</b> React.js, Redux, Javascript, HTML5, CSS3, Tailwind
-            CSS, Bootstrap, Agile Development, Responsive Designing, Typescript,
-            Git, Giyhub, Wordpress.
-          </p>
-          <p className="mt-3">
-            <b>Interests:</b> Open Source Projects, Competitive Programming,
-            Tech Events, UI/UX Design, Cloud Computing.
-          </p>
-        </div>
-        <div>
-          <div className="flex">
-            <p className="mt-6 text-blue-500 ">
-              <a href="#"> LinkedIn - Pankaj Singh Sheoran</a>
+      <div className="flex">
+        <div className="grid-cols-1">
+          <div className=" ml-44">
+            <div className="flex">
+              <p className="mt-6 text-blue-500 ">
+                <a href="https://docs.google.com/document/d/1TCVRPtL2ra6NSJ3TBcNiUUzkLsZ8kZor/edit?usp=sharing&ouid=102120126389334410977&rtpof=true&sd=true">
+                  {" "}
+                  Pankaj Singh Sheoran - Resume
+                </a>
+              </p>
+            </div>
+            <div className="text-xs">
+              <p className="mt-3">
+                <b>Pankaj Singh Sheoran</b> (born 2001), Computer Science
+                Undergraduate Batch of 2023, pursuing degree from Guru
+                Jambheshwar University of Science and Technology, Hisar,
+                Haryana, India.
+              </p>
+              <p className="mt-3">
+                <b>Skills:</b> React.js, Redux, Javascript, HTML5, CSS3,
+                Tailwind CSS, Bootstrap, Agile Development, Responsive
+                Designing, Typescript, Git, Giyhub, Wordpress.
+              </p>
+              <p className="mt-3">
+                <b>Interests:</b> Open Source Projects, Competitive Programming,
+                Tech Events, UI/UX Design, Cloud Computing.
+              </p>
+            </div>
+            <div>
+              <div className="flex">
+                <p className="mt-6 text-blue-500 ">
+                  <a href="https://www.linkedin.com/in/pankaj-singh-sheoran-8984231b2/">
+                    {" "}
+                    LinkedIn - Pankaj Singh Sheoran
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="flex">
+                <p className="mt-6 text-blue-500 ">
+                  <a href="#"> Email - pankajsheoran728@gmail.com</a>
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="flex">
+                <p className="mt-6 text-blue-500 ">
+                  <a href="https://github.com/PankajSinghSheoran">
+                    {" "}
+                    Github Profile
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-6">
+              <img
+                src="https://github-readme-stats.vercel.app/api/top-langs?username=pankajsinghsheoran&show_icons=true&locale=en&layout=compact"
+                alt="pankajsinghsheoran"
+              />
             </p>
+
+            <p>
+              &nbsp;
+              <img
+                src="https://github-readme-stats.vercel.app/api?username=pankajsinghsheoran&show_icons=true&locale=en"
+                alt="pankajsinghsheoran"
+              />
+            </p>
+            {/* 
+            <p>
+              <img
+                src="https://github-readme-streak-stats.herokuapp.com/?user=pankajsinghsheoran&"
+                alt="pankajsinghsheoran"
+              />
+            </p> */}
           </div>
         </div>
-        <div>
-          <div className="flex">
-            <p className="mt-6 text-blue-500 ">
-              <a href="#"> Email - pankajsheoran728@gmail.com</a>
-            </p>
-          </div>
+        <div className="grid-cols-2">
+          <img
+            alt="coding"
+            width="500"
+            src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"
+          />
         </div>
       </div>
     </div>
